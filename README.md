@@ -28,6 +28,15 @@ The **Applicant Tracking System (ATS)** is a Django-based web application design
 - Full-name exact matches appear **at the top**.
 - Partial matches are ordered based on the number of matched words.
 
+### 4. **Exception Handling & Logging**
+- Implemented robust exception handling to ensure API stability.
+- Added logging to track application behavior and errors.
+- Logs are stored in a structured format for debugging and monitoring.
+
+### 5. **Environment Variables Support**
+- Configurations such as database credentials and API keys are managed using .env files.
+- Ensures security by keeping sensitive information outside the codebase.
+
 ---
 
 ## API Endpoints
