@@ -36,22 +36,22 @@ The **Applicant Tracking System (ATS)** is a Django-based web application design
 
 | Method | Endpoint            | Description              |
 | ------ | ------------------- | ------------------------ |
-| GET    | `/candidates/`      | List all candidates      |
-| POST   | `/candidates/`      | Create a new candidate   |
-| GET    | `/candidates/{id}/` | Retrieve candidate by ID |
-| PUT    | `/candidates/{id}/` | Update candidate details |
-| DELETE | `/candidates/{id}/` | Delete a candidate       |
+| GET    | `/ATS/candidates/`      | List all candidates      |
+| POST   | `/ATS/candidates/`      | Create a new candidate   |
+| GET    | `/ATS/candidates/{id}/` | Retrieve candidate by ID |
+| PUT    | `/ATS/candidates/{id}/` | Update candidate details |
+| DELETE | `/ATS/candidates/{id}/` | Delete a candidate       |
 
 ### **2. Search Endpoint**
 
 | Method | Endpoint                       | Description               |
 | ------ | ------------------------------ | ------------------------- |
-| GET    | `/candidates/search?q={query}` | Search candidates by name |
+| GET    | `/ATS/candidates/search?q={query}` | Search candidates by name |
 
 **Example:**
 
 ```
-GET /candidates/search?q=Ajay Kumar Yadav
+GET /ATS/candidates/search?q=Raj Sharma
 ```
 
 **Response:** Candidates sorted by search relevance.
